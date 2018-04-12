@@ -36,13 +36,9 @@ You may install these in Ubuntu systems by running:
 
 These dependencies can also be satisfied in Arch Linux (sorry for not providing instructions).
 
-Please note that, since package names change between distros, you must make sure that the correct packages have been installed, in order to satisfy the dependencies. If autoreconf reports unmet dependencies, feel free to edit the configure.ac file if you are sure the correct packages are installed.
-
 ### Notes
 
-You may find details on how the automake/conf files are configured by opening them and reading the comments.
-
-Surprisingly, although packages are installed using one name (such as libtiff5) the name that configure.ac can find may be another one (such as libtiff-4).
+Please note that, since package names change between distros, you must make sure that the correct packages have been installed, in order to satisfy the dependencies. If autoreconf reports unmet dependencies, feel free to edit the configure.ac file if you are sure the correct packages are installed.
 
 ## Build and Install
 
