@@ -8,8 +8,11 @@ I have slightly edited and renamed the configure.in file to be used with autorec
 The cellID developers ([link to publication](http://dx.doi.org/10.1002/0471142727.mb1418s100)).
 The original source can be found at sourceforge ([link](https://sourceforge.net/projects/cell-id/)).
 
-## Download Source
-Use the provided script to download the entire contents of the Sourceforge repo.
+## Download all Sources
+The files herein are sufficient to build VCellID.
+Additionally, the sourceforge repo has sources for CellID, VCellID, the VCellID ImageJ plugin, RCell, and others.
+Use the provided script to download the entire contents of the Sourceforge repo if it pleases you:
+
 `sourceforge-file-downloader.sh cell-id`
 
 ## Dependencies
