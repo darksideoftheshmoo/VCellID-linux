@@ -5,8 +5,8 @@ Unlike cellID, VCellID can be conpiled with autotools directly, as it comes prec
 I have slightly edited and renamed the configure.in file to be used with autoreconf, and to require the gtkimageview dependency.
 
 ## Credits
-The cellID developers ([link to publication](http://dx.doi.org/10.1002/0471142727.mb1418s100))
-The original source can be found at sourceforge ([link](https://sourceforge.net/projects/cell-id/))
+The cellID developers ([link to publication](http://dx.doi.org/10.1002/0471142727.mb1418s100)).
+The original source can be found at sourceforge ([link](https://sourceforge.net/projects/cell-id/)).
 
 ## Download Source
 Use the provided script to download the entire contents of the Sourceforge repo.
