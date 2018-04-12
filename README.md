@@ -42,7 +42,7 @@ Please note that, since package names change between distros, you must make sure
 
 ## Build and Install
 
-To build and install, open a termina, cd into the directory where the files are, and run:
+To build and install, open a terminal, cd into the directory where the files are, and run:
 
     autoreconf -vif
     ./configure
