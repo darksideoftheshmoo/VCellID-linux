@@ -41,7 +41,7 @@ These dependencies can also be satisfied in Arch Linux (sorry for not providing 
 
 ### Notes
 
-Please note that, since package names change between distros, you must make sure that the correct packages have been installed, in order to satisfy the dependencies. If autoreconf reports unmet dependencies, feel free to edit the configure.ac file if you are sure the correct packages are installed.
+Please note that, since package names change between distros, you must make sure that the correct packages have been installed, in order to satisfy the dependencies. If autoreconf reports unmet dependencies, feel free to edit the configure.ac file if you are sure the correct packages are already installed.
 
 ## Build and Install
 
