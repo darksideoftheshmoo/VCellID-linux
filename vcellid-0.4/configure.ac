@@ -1,7 +1,9 @@
-dnl Process this file with autoconf to produce a configure script.
+AC_INIT([vcellid], [0.4])
+AM_INIT_AUTOMAKE([-Wall -Werror foreign])
 
-AC_INIT(configure.in)
-AM_INIT_AUTOMAKE(vcellid, 0.3)
+PKG_CHECK_MODULES([PACKAGE], [gtk+-2.0 >= 2.0.0])
+PKG_CHECK_MODULES([gtkimageview], [gtkimageview])
+
 AM_CONFIG_HEADER(config.h)
 AM_MAINTAINER_MODE
 
@@ -10,8 +12,7 @@ AC_PROG_CC
 AM_PROG_CC_STDC
 AC_HEADER_STDC
 
-pkg_modules="gtk+-2.0 >= 2.0.0"
-PKG_CHECK_MODULES(PACKAGE, [$pkg_modules])
+
 AC_SUBST(PACKAGE_CFLAGS)
 AC_SUBST(PACKAGE_LIBS)
 
