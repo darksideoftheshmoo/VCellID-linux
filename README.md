@@ -2,6 +2,7 @@
 This is meant to aid compilation of VCell-ID v0.4 in GNU/linux systems
 
 Unlike cellID, VCellID can be conpiled with autotools directly, as it comes preconfigured.
+I have slightly edited and renamed the configure.in file to be used with autoreconf, and to require the gtkimageview dependency.
 
 ## Credits
 The cellID developers ([link to publication](http://dx.doi.org/10.1002/0471142727.mb1418s100))
@@ -35,6 +36,8 @@ You may install these in Ubuntu systems by running:
 
 These dependencies can also be satisfied in Arch Linux (sorry for not providing instructions).
 
+Please note that, since package names change between distros, you must make sure that the correct packages are install to satisfy the dependencies. If autoreconf reports unmet dependencies, feel free to edit the configure.ac file if you are sure the correct packages are installed.
+
 ### Notes
 
 You may find details on how the automake/conf files are configured by opening them and reading the comments.
@@ -43,12 +46,13 @@ Surprisingly, although packages are installed using one name (such as libtiff5) 
 
 ## Build and Install
 
-To build and install, please cd into the directory where the files are and run:
+To build and install, open a termina, cd into the directory where the files are, and run:
 
+    autoreconf -vif
     ./configure
     make -j8
     sudo make install
 
-Please refer to the cellID documentation to learn how to use this program.
+Please refer to the VcellID documentation to learn how to use this program.
 
 Cheers!
