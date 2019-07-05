@@ -1,7 +1,7 @@
 # VCellID-linux
 This is meant to aid compilation of VCell-ID v0.4 in GNU/linux systems
 
-Unlike cellID, VCellID can be conpiled with autotools directly, as it comes preconfigured.
+Unlike cellID, VCellID can be compiled with autotools directly, as it comes preconfigured.
 I have slightly edited and renamed the configure.in file to be used with autoreconf, and to require the gtkimageview dependency.
 
 ## Credits
