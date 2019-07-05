@@ -37,7 +37,9 @@ You may install these in Ubuntu systems by running:
 
 `sudo apt-get install libglib2.0 libglib2.0-dev libtiff5 libtiff5-dev libopenlibm-dev gtkimageview`
 
-These dependencies can also be satisfied in Arch Linux (sorry for not providing instructions).
+These dependencies can also be satisfied in Arch Linux
+* pacman -S autoconf automake libtool pkgconfig
+* 
 
 ### Notes
 
